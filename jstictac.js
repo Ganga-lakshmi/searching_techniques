@@ -19,6 +19,7 @@ function myfunc() {
 			.innerHTML = "Player X won &#128520;";
 		
 		window.alert('Player X won');
+		myfunc_2();
 	}
 	else if ((b1 == 'X') && (b4 == 'X') && ( b7 == 'X')) {
 		document.getElementById('print')
@@ -26,42 +27,50 @@ function myfunc() {
 		
 
 		window.alert('Player X won');
+		myfunc_2();
 	}
 	else if (( b7 == 'X') && (b8 == 'X') && ( b9 == 'X')) {
 		document.getElementById('print')
 			.innerHTML = "Player X won &#128513;";
 		
 		window.alert('Player X won');
+		myfunc_2();
 	}
 	else if (( b3 == 'X') && (b6 == 'X') && (b9 == 'X')) {
 		document.getElementById('print')
 			.innerHTML = "Player X won &#128526;";
 		
 		window.alert('Player X won');
+		myfunc_2();
 	}
 	else if (( b1 == 'X') && (b5 == 'X') && ( b9 == 'X')) {
 		document.getElementById('print')
 			.innerHTML = "Player X won &#128540;";
 		
 		window.alert('Player X won');
+		myfunc_2();
+		
 	}
 	else if (( b3 == 'X') && (b5 == 'X') && ( b7 == 'X')) {
 		document.getElementById('print')
 			.innerHTML = "Player X won &#129321;";
 		
 		window.alert('Player X won');
+		myfunc_2();
 	}
 	else if (( b2 == 'X') && (b5 == 'X') && ( b8 == 'X')) {
 		document.getElementById('print')
 			.innerHTML = "Player X won &#127947;";
 		
 		window.alert('Player X won');
+		myfunc_2();
 	}
 	else if (( b4 == 'X') && (b5 == 'X') && (b6 == 'X')) {
 		document.getElementById('print')
 			.innerHTML = "Player X won &#129311;";
 		
 		window.alert('Player X won');
+		myfunc_2();
 	}
 
 	// Checking of Player X finish
@@ -71,48 +80,56 @@ function myfunc() {
 			.innerHTML = "Player 0 won &#127831;";
 		
 		window.alert('Player 0 won');
+		myfunc_2();
 	}
 	else if ((b1 == '0') && (b4 == '0') && (b7 == '0')) {
 		document.getElementById('print')
 			.innerHTML = "Player 0 won &#127848;";
 		
 		window.alert('Player 0 won');
+		myfunc_2();
 	}
 	else if ((b7 == '0') && (b8 == '0') && (b9 == '0')) {
 		document.getElementById('print')
 			.innerHTML = "Player 0 won &#127947;";
 		
 		window.alert('Player 0 won');
+		myfunc_2();
 	}
 	else if ((b3 == '0') && (b6 == '0') && (b9 == '0')) {
 		document.getElementById('print')
 			.innerHTML = "Player 0 won &#128520; ";
 		
 		window.alert('Player 0 won');
+		myfunc_2();
 	}
 	else if (( b1 == '0') && (b5 == '0') && ( b9 == '0')) {
 		document.getElementById('print')
 			.innerHTML = "Player 0 won &#127867; ";
 		
 		window.alert('Player 0 won');
+		myfunc_2();
 	}
 	else if (( b3 == '0') && (b5 == '0') && ( b7 == '0')) {
 		document.getElementById('print')
 			.innerHTML = "Player 0 won &#127919;";
 		
 		window.alert('Player 0 won');
+		myfunc_2();
 	}
 	else if (( b2 == '0') && (b5 == '0') && ( b8 == '0')) {
 		document.getElementById('print')
 			.innerHTML = "Player 0 won &#128520;";
 		
 		window.alert('Player 0 won');
+		myfunc_2();
 	}
 	else if (( b4 == '0') && (b5 == '0') && ( b6 == '0')) {
 		document.getElementById('print')
 			.innerHTML = "Player 0 won &#127942;";
 		
 		window.alert('Player 0 won');
+		myfunc_2();
 	}
 
 
@@ -128,6 +145,7 @@ function myfunc() {
 			document.getElementById('print')
 				.innerHTML = "Match Tie &#127917;";
 			window.alert('Match Tie');
+		        myfunc_2();
 	}
 	else {
 
